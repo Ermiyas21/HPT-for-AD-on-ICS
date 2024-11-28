@@ -16,13 +16,32 @@ The project uses the publicly available [SwaT dataset](https://itrust.sutd.edu.s
 
 Key preprocessing steps include:
 **Feature Selection:** Filtering methods to select the strongest features.
+
 **Random Sampling:** Reducing dataset size for computational efficiency.
+
 **SMOTE (Synthetic Minority Oversampling Technique):** Addressing class imbalance to enhance anomaly detection.
 
 ### Methedology
 The research evaluates the following machine learning methods:
 
-**[Isolation Forest:](docs/isolation forest-smote.jpynb)** Efficient tree-based anomaly detection.
+**Isolation Forest:** Efficient tree-based anomaly detection.
+
 **One-Class SVM (OCSVM):** Kernel-based approach for identifying deviations.
+
 **Autoencoder:** Neural network for unsupervised anomaly detection.
+
 **LSTM:** Recurrent neural network for time-series anomaly detection.
+
+
+### Optimization Techniques
+Hyperparameter tuning was performed using:
+
+**1. Grid Search**
+
+**2. Random Search**
+
+**3. Bayesian Optimization (Optuna)**
+
+**4. Particle Swarm Optimization (PSO)**
+
+Each method was evaluated using metrics like recall, AUC, and f1 score to identify the best-performing models for ICS anomaly detection.
