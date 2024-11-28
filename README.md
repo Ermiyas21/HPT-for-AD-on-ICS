@@ -15,6 +15,14 @@ The goal is to identify the most effective approach for real-time anomaly detect
 The project uses the publicly available [SwaT dataset](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/) for ICS anomaly detection. The dataset contains 946,722 rows and 51 features, offering a rich resource for evaluating machine learning models.
 
 Key preprocessing steps include:
-> Feature Selection: Filtering methods to select the strongest features.
-> Random Sampling: Reducing dataset size for computational efficiency.
-> SMOTE (Synthetic Minority Oversampling Technique): Addressing class imbalance to enhance anomaly detection.
+**Feature Selection:** Filtering methods to select the strongest features.
+**Random Sampling:** Reducing dataset size for computational efficiency.
+**SMOTE (Synthetic Minority Oversampling Technique):** Addressing class imbalance to enhance anomaly detection.
+
+### Methedology
+The research evaluates the following machine learning methods:
+
+**[Isolation Forest:](docs/isolation forest-smote.jpynb)** Efficient tree-based anomaly detection.
+**One-Class SVM (OCSVM):** Kernel-based approach for identifying deviations.
+**Autoencoder:** Neural network for unsupervised anomaly detection.
+**LSTM:** Recurrent neural network for time-series anomaly detection.
