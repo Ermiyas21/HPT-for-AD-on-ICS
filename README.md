@@ -4,9 +4,13 @@ This repository contains the code, datasets, and supporting materials for the re
 
 ## Table of Contents
 Overview
+
 Dataset
+
 Methodology
+
 Results
+
 ### Overview
 Industrial Control Systems (ICS) play a critical role in modern infrastructure, and their security and reliability are paramount. This project applies machine learning techniques to detect anomalies in the SwaT (Secure Water Treatment) dataset, a widely recognized ICS benchmark dataset. The study explores various anomaly detection methods, including Isolation Forest, One-Class SVM (OCSVM), Autoencoder, and LSTM, alongside optimization techniques such as Grid Search, Random Search, Bayesian Optimization, and Particle Swarm Optimization (PSO).
 The goal is to identify the most effective approach for real-time anomaly detection in ICS environments while ensuring computational efficiency and practical applicability.
