@@ -25,7 +25,7 @@ Key preprocessing steps include:
 
 **SMOTE (Synthetic Minority Oversampling Technique):** Addressing class imbalance to enhance anomaly detection.
 
-### Methedology
+### methodology 
 The research evaluates the following machine learning methods:
 
 **Isolation Forest:** Efficient tree-based anomaly detection.
